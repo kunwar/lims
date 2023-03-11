@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(240, 245, 249);
+}
+
+header h1 {
+  font-family: Merriweather, serif;
+  font-size: 3rem;
+  color: rgb(135, 53, 50);
+  display: inline-block;
+}
+
+#logo {
+  vertical-align: bottom;
+}
+
+#tagline {
+  font-family: 'Tiro Gurmukhi';
+  font-size: 1.2rem;
+  font-style: italic;
+  color: rgb(161, 92, 92);
+  text-align: center;
+}
+
+#contact-info {
+  font-size: 1.3rem;
+  color: rgb(135, 53, 50);
+}
+
+#contact-info a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+nav {
+  background-color: rgb(229, 234, 239);
+}
+
+nav ul {
+  font-family: 'Libre Baskerville', serif;
+  margin: auto;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}

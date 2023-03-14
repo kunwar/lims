@@ -11,7 +11,7 @@ class Patient(models.Model):
     )
     gender = models.CharField(
         max_length=1, choices=GENDER_CHOICES, default='M')
-    date_visited = models.DateTimeField()
+    date_visited = models.DateField()
 
     def __str__(self):
         return self.name

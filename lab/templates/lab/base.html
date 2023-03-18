@@ -37,9 +37,12 @@
               id="logo"
               src="{% static 'lab/images/star.png' %}"
               alt="Star Logo"
-              height="80"
+              height="70"
             />
             <h1>Star Laboratory</h1>
+            <div style="color: rgb(135, 53, 50)">
+              <p>Loharan-Chahrke Road, Bhogpur, Jalandhar</p>
+            </div>
           </header>
         </div>
         <br />
@@ -47,8 +50,6 @@
           class="col-sm-3 ps-5"
           style="border-left: 1px dotted black; color: rgb(135, 53, 50)"
         >
-          <p>Loharan-Chahrke Road, Bhogpur, Jalandhar</p>
-          <hr />
           <p>
             S. Nachhattar Singh <br />
             <i>Prop.</i>
@@ -70,7 +71,7 @@
             <div class="container">
               <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Home</a>
+                  <a href="/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Tests</a>
@@ -88,6 +89,9 @@
         <hr />
       </div>
       <div class="row">{% block content %} {% endblock %}</div>
+      <div>
+        <footer>&copy;All rights reserved 2023.</footer>
+      </div>
     </div>
   </body>
 </html>
